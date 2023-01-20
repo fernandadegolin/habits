@@ -6,7 +6,7 @@ function App() {
     <>
       <Habit completed={2} />
       <Habit completed={2} />
-      <Habit completed={2} />
+      <Habit completed={3} />
     </>
   );
 }
