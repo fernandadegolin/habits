@@ -5,6 +5,7 @@ const { Navigator, Screen } = createNativeStackNavigator();
 import { Home } from '../screens/Home';
 import { New } from '../screens/New';
 import { Habit } from '../screens/Habit';
+import React from 'react';
 
 export function AppRoutes() {
   return (

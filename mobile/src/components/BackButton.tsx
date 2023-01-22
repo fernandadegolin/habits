@@ -2,6 +2,7 @@ import { TouchableOpacity } from "react-native";
 import { Feather } from '@expo/vector-icons';
 import colors from "tailwindcss/colors";
 import { useNavigation } from "@react-navigation/native";
+import React from "react";
 
 export function BackButton() {
   const { goBack } = useNavigation()

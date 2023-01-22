@@ -4,6 +4,7 @@ import colors from 'tailwindcss/colors';
 import { useNavigation } from "@react-navigation/native";
 
 import Logo from '../assets/logo.svg';
+import React from "react";
 
 export function Header() {
   const { navigate } = useNavigation()
